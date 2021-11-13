@@ -1,6 +1,9 @@
 import random
-x = random.randint(1,100)
-print(x)#正確答案
+start = int(input('請決定隨機數字範圍起始值: '))
+end = int(input('請決定隨機數字範圍結束值: '))
+
+x = random.randint(start,end)
+print('正確答案是:', x)#正確答案
 count = 0
 while(1):
     count += 1
